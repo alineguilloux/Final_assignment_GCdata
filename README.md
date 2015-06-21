@@ -14,6 +14,9 @@ The final txt file has the data grouped by subject and activity, with the mean f
 
 This data were obtained trough motion tecnologies included in a celphone, carried by different subject while doing different phisical activities.
 
+Codebook
+=================
+
 The codebook to the variables I created is as folows:
 
 subject_id: every ID corresponds to a single person participating in the project. 
@@ -23,7 +26,6 @@ This text was obtained with the original data at: https://d396qusza40orc.cloudfr
 From the original data, only the "mean()" and "std()" variables were kept in the final database, as they describe the mean and standard deviation.
 
 Feature Selection 
-=================
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
